@@ -17,7 +17,7 @@
 
         function asset_injector() {
             const compiler = this;
-            compiler.plugin('after-compile', inject_asset_references);
+            compiler.plugin('emit', inject_asset_references);
             return true;
         }
 
