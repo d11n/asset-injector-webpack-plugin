@@ -50,7 +50,7 @@
             // -----------
 
             function pull_out_assets(module) {
-                return Object.keys(module.assets);
+                return module.assets ? Object.keys(module.assets) : [];
             }
             function exclude_suppressed_files(output_file_name) {
                 return assets_dict[output_file_name];
