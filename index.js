@@ -1,4 +1,4 @@
-(function main(WEBPACK) {
+(function main() {
     const package_name = 'asset-injector-webpack-plugin';
     return module.exports = asset_injector_webpack_plugin;
 
@@ -168,11 +168,9 @@
     }
 
     function error(message) {
-        WEBPACK.emitError(`${ package_name }: ${ message }.`);
+        console.error(`${ package_name }: ${ message }.`);
     }
     function warn(message) {
-        WEBPACK.emitWarning(`${ package_name }: ${ message }.`);
+        console.warn(`${ package_name }: ${ message }.`);
     }
-}(
-    require('webpack')
-));
+}());
