@@ -1,6 +1,6 @@
 {
     "name": "asset-injector-webpack-plugin",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "Simply inject CSS and JavaScript assets into HTML assets with Webpack",
     "author": "Derek Dunagan",
     "license": "MIT",
