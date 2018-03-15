@@ -1,12 +1,12 @@
 {
     "name": "asset-injector-webpack-plugin",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "description": "Simply inject CSS and JavaScript assets into HTML assets with Webpack",
     "author": "Derek Dunagan",
     "license": "MIT",
-    "homepage": "https://github.com/rhombal/asset-injector-webpack-plugin#readme",
+    "homepage": "https://github.com/d11n/asset-injector-webpack-plugin#readme",
     "repository": {
         "type": "git",
-        "url": "git@github.com:rhombal/asset-injector-webpack-plugin.git"
+        "url": "git@github.com:d11n/asset-injector-webpack-plugin.git"
     }
 }
